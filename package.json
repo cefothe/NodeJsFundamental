@@ -1,0 +1,25 @@
+{
+  "name": "nodefundamental",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.1.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cefothe/NodeJsFundamental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cefothe/NodeJsFundamental/issues"
+  },
+  "homepage": "https://github.com/cefothe/NodeJsFundamental#readme"
+}
