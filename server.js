@@ -5,8 +5,14 @@ var server = http.createServer(function(request, response){
 		response.writeHead(200,{"Content-type":"text/html"});
 		response.end("hello <strong>world</strong>");
 	}else if (request.url === '/goodbye'){
-		response.writeHead(200,{"Content-type":"text/html"});
-		response.end("goodbye <strong>world</strong>");
+		if(request.method === 'GET'){
+			response.writeHead(200,{"Content-type":"text/html"});
+			response.end("goodbye <strong>world</strong>");
+		}else if(request.method === 'POST'){
+			response.writeHead(200,{"Content-type":"text/html"});
+			response.end("Posting goodbye cruel world");
+		}
+
 	}
 });
 
