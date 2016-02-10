@@ -1,6 +1,6 @@
 {
-  "name": "sayhelloworld",
-  "version": "0.1.0",
+  "name": "sayhelloworldcefothe",
+  "version": "0.1.1",
   "description": "Write Hello wort out to the console",
   "main": "index.js",
   "scripts": {
